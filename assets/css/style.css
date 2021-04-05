@@ -1,45 +1,34 @@
-/*configuration boite1*/
+/*configuration contener1*/
 .contener1 {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    height: 80px;
 }
 
 .block1 {
     background-color: #27ad60;
     width: 80%;
-    height: 80px;
+    height: 100px;
 }
 
 .block2 {
     background-color: #206794;
     width: 20%;
-    height: 80px;
-}
-
-/*configuration boite2*/
-.contener2 {
-    display: flex;
-    width: 100%;
-    height: 80px;
+    height: 100px;
 }
 
 .block3 {
     background-color: #e74c3c;
     width: 30%;
-    height: 200px;
+    height: 300px;
 }
 
 .block4 {
-    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
     width: 70%;
-    height: 200px;
-}
-
-/*configuration boite3*/
-.contener3 {
-    width: 100%;
-    height: 100px;
+    height: 300px;
+    background-color: black;
 }
 
 .block5 {
@@ -47,3 +36,36 @@
     width: 100%;
     height: 400px;
 }
+
+.sousblock1 {
+    background-color: #e67e22;
+    height: 150px;
+    width: 50%;
+
+}
+
+.sousblock2 {
+    background-color: #95a5a6;
+    height: 150px;
+    width: 50%;
+
+}
+
+.sousblock3 {
+    background-color: #f39c12;
+    height: 150px;
+    width: 33.33%;
+
+}
+
+.sousblock4 {
+    background-color: #16a085;
+    height: 150px;
+    width: 33.33%;
+
+}
+
+.sousblock5 {
+    background-color: #d35400;
+    height: 150px;
+    width: 33.33%;
